@@ -1,0 +1,12 @@
+[package]
+name = "rust-cv"
+version = "0.1.0"
+authors = ["Velimir Baksa"]
+description = "my cv"
+keywords = ["cv"]
+license = "GNU GPLv2"
+
+[dependencies]
+tui = "0.2.0"
+termion = "1.4.0"
+rand = "0.3.15"
