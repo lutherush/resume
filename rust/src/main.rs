@@ -201,12 +201,10 @@ fn draw_personal(t: &mut Terminal<RawBackend>, area: &Rect) {
                     .title("About me")
                     .title_style(Style::default().fg(Color::Green).modifier(Modifier::Bold)))
                 .wrap(true)
-                .text("\nI am a DevOps and SecOps specialist with interested in {mod=bold Artificial intelligence} and {mod=bold Systems Programming}.\n\n\
-                       Regular attendee of the {mod=bold C++} and {mod=bold Go} MeetUps in Varazdin and Zagreb.\n\n\
-                       I have more then 10 years professional experiances in industry and worked 6 years as red team cyber security expert.\n\n\
-                       I know java and i choose not to use java due security issues. Please do not force me to use java on work. Thank you.\n\n\
+                .text("\nI am an DevSecOps engineer who is bit more then 16 years in industry, with interests in{mod=bold System and platform architecture} and {mod=bold Cyber security}.\n\n\
+                       Regular attendee of the {mod=bold C++} and {mod=bold Go} Cloud native and K8s meetups in Munich.\n\n\
                        I play {mod=bold guitar} and enjoy heavy metal, bossa nova and jazz.\n\n\
-                       I enjoy playing Dungeons and Dragons, videogames, go fishing and explore Asian countries.\n\n\
+                       I also enjoy playing Dungeons and Dragons, videogames, fishing and explore Asian countries.\n\n\
                       ")
                 .render(t, &chunks[1]);
             });
@@ -242,9 +240,7 @@ fn draw_personal(t: &mut Terminal<RawBackend>, area: &Rect) {
                     .title_style(Style::default().fg(Color::Green).modifier(Modifier::Bold)))
                 .wrap(true)
                 .text("\n{mod=bold;fg=yellow Email:} velimir.baksa@gmail.com\n\n\
-                       {mod=bold;fg=yellow Phone:} 385977576422\n\n\
-                       {mod=bold;fg=yellow Website:} https://lutherush.github.io/\n\n\
-                       {mod=bold;fg=yellow Twitter:} https://twitter.com/luterus\n\n\
+                       {mod=bold;fg=yellow Phone:} +4915128707608\n\n\
                        {mod=bold;fg=yellow GitHub:} https://github.com/lutherush\n\n\
                        {mod=bold;fg=yellow LinkedIn:} http://linkedin.com/in/velimirbaksa\n\n\
                       ")
@@ -393,20 +389,20 @@ fn draw_experience(t: &mut Terminal<RawBackend>, area: &Rect) {
                 Paragraph::default()
                 .block(Block::default()
                     .borders(Borders::ALL)
-                    .title("April 2020 - august 2020: Cloud architect , Appon GmbH, Frankfurt Germany")
+                    .title("August 2021 - ongoing: DevSecOps & CSIO , Arcware GmbH, Munich; Germany")
                     .title_style(Style::default().fg(Color::Green).modifier(Modifier::Bold)))
                 .wrap(true)
-                .text("\n{mod=bold;fg=yellow High Performance Platform:} Implemented new functionalities that serve thousands of certificates per second. Took care of the migration of backend storage from MongoDB to PostgreSQL.\n\n\
-As a side project I developed an static analysis tool to enforce the code style used in the company.\n\n\
+                .text("\n{mod=bold;fg=yellow High Performance streaming platform:} Designed, deployed, and maintained four bare metal Kubernetes clusters based on Equinix Metal, ensuring high availability and scalability of containerized applications.
+                Implemented best practices for cluster design, including node sizing, network configuration, and storage provisioning, resulting in optimized performance and resource utilization.\n\n\
                       ")
                 .render(t, &chunks[0]);
                 Paragraph::default()
                 .block(Block::default()
                     .borders(Borders::ALL)
-                    .title("2011 - 2018: AI developer, Asgard Technology LLC, Pasadena, CA, USA")
+                    .title("December 2020 - August 2021: DevOps engineer, SNK GmbH, Munich; Germany")
                     .title_style(Style::default().fg(Color::Green).modifier(Modifier::Bold)))
                 .wrap(true)
-                .text("\n{mod=bold;fg=yellow Network library:} Allows the user to interact with Boost ASIO through the std::stream interface.\n\n\
+                .text("\n{mod=bold;fg=yellow Network library:} Used Docker and Kubernetes to deploy apps and micro-services, everything is code philosophy\n\n\
                        {mod=bold;fg=yellow Tools:} Improve the toolchain used internally to allow the usage of clang-tidy for the linting of our code. Another tool allows to switch between several versions of the toolchain without having to change the environment.\n\n\
                        {mod=bold;fg=yellow Backend development:} Several activities regarding the extension and implementation of new features in the backend of the product such as Authentication and GStreamer sinks.\n\n\
                       ")
@@ -414,12 +410,12 @@ As a side project I developed an static analysis tool to enforce the code style 
                 Paragraph::default()
                 .block(Block::default()
                     .borders(Borders::ALL)
-                    .title("2009 - 2011: Red Team cyber security expert, Modulo FZO, Dubai, UAE")
+                    .title("October 2011 - December 2020: DevSecOps engineer, Epic games, Pasadena, LA; California; USA")
                     .title_style(Style::default().fg(Color::Green).modifier(Modifier::Bold)))
                 .wrap(true)
                 .text("\n{mod=bold;fg=yellow Static analysis of code:} Checks if the code has some patterns that have an undefined behaviour, unspecified in the Standard, and/or implementation-defined.\n\n\
                        {mod=bold;fg=yellow Dataflow analysis of code:} Checks the complexity of methods, pointer problems, memory handling, etc.\n\n\
-                       Took over two projects to refactor, maintain and add new features.\n\n\
+                       Worked on ZERO touch DevOps principles\n\n\
                        Exploring security treats and holes in code and infrastrucitrem explorin physical server security/ \n\n\
                       ")
                 .render(t, &chunks[2]);
@@ -510,8 +506,8 @@ fn draw_looking_for(t: &mut Terminal<RawBackend>, area: &Rect) {
                     .wrap(true)
                     .text("\n{mod=bold;fg=yellow I am currently looking for new opportunities}\n\n\n\
                            My ideal roles involve a combination of the following:\n\n\
-                           \t* Work on automotive and aviation automation.\n\
-                           \t* Design, develop and maintain a high performance and reliable systems.\n\
+                           \t* DevOps/DecvSecOps and cyber security with focus on platforma nd cloud.\n\
+                           \t* I would like to design, develop and maintain a high performance and reliable systems.\n\
                            \t* Work on next level robotics and automation systems.\n\
                            \t* Create and improve the tools used during the development process.\n\
                            \t* Work in the internals of Operating Systems such as GNU/Linux and FreeBSD.\n\
