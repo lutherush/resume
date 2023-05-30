@@ -1,4 +1,5 @@
-FROM rust:1.40-stretch
+FROM rust:1.69-buster
+RUN rustup update
 RUN rustup target add i686-unknown-linux-musl
 COPY src /src
 COPY Cargo.toml /

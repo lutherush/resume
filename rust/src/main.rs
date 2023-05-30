@@ -191,8 +191,8 @@ fn draw_personal(t: &mut Terminal<RawBackend>, area: &Rect) {
                 .text("\n{mod=bold;fg=yellow Name:} Velimir Baksa\n\n\
                        {mod=bold;fg=yellow Date of Birth:} 18/02/1986\n\n\
                        {mod=bold;fg=yellow Nationality:} Croatian\n\n\
-                       {mod=bold;fg=yellow Location:} Varazdin Croatia\n\n\
-                       {mod=bold;fg=yellow Open to relocation within the E.U.}\n\n\
+                       {mod=bold;fg=yellow Location:} Munich, Germany\n\n\
+                       {mod=bold;fg=yellow Open to relocation within the EU}\n\n\
                       ")
                 .render(t, &chunks[0]);
                 Paragraph::default()
@@ -394,6 +394,7 @@ fn draw_experience(t: &mut Terminal<RawBackend>, area: &Rect) {
                 .wrap(true)
                 .text("\n{mod=bold;fg=yellow High Performance streaming platform:} Designed, deployed, and maintained four bare metal Kubernetes clusters based on Equinix Metal, ensuring high availability and scalability of containerized applications.
                 Implemented best practices for cluster design, including node sizing, network configuration, and storage provisioning, resulting in optimized performance and resource utilization.\n\n\
+                Implemented zero-touch methods for server OS deployments, leveraging cloudstack, Terraform, and GitLab to automate it. \n\n\
                       ")
                 .render(t, &chunks[0]);
                 Paragraph::default()
