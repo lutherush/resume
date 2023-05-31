@@ -5,7 +5,7 @@
 ## Contact Details
 
 * Email: [velimir.baksa@gmail.com](mailto:velimir.baksa@gmail.com)
-* Web: [lutherus.me](https://lutherus.io)
+* Web: [lutherus.io](https://lutherus.io)
 * GitHub: [github.com/lutehrush](https://github.com/lutehrush)
 * Location: [Munich, Germany](https://en.wikipedia.org/wiki/Munich)
 
@@ -19,7 +19,7 @@
 * JSON: <.json>
 * `gemini://lutherus.io/resume.gmi`
 * `gopher://lutherus.io:70/0/resume.txt`
-* `finger resume@jbeard.co`
+* `finger resume@lutherus.io`
 
 ## Summary
 

@@ -19,7 +19,7 @@
 * JSON: <{{ resume['formats']['json']['url'] }}>
 * `{{ resume['formats']['gemini'] }}`
 * `{{ resume['formats']['gopher'] }}`
-* `finger resume@jbeard.co`
+* `finger resume@lutherus.io`
 
 ## Summary
 
