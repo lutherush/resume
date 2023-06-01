@@ -1,0 +1,11 @@
+# kustomization.yaml
+resources:
+  - base/deployment.yaml
+  - base/service.yaml
+  - base/ingress.yaml
+
+# Replace image with your Hugo blog image
+images:
+  - name: lutherus.io:2023
+    newName: harbor/hugo
+    newTag: 2023
