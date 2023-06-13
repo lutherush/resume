@@ -39,7 +39,9 @@ summary: >
   IT professional with a strong background in systems testing, cloud, and
   DevOps with over 16 years of experience and collaborations with more than a
   hundred teams across hundreds of projects. 
-
+certificates: >
+  I do not believe in certificates. They do not prove someones skills, knowledge and experience, all they prove is that
+  someone had 3000€ for a paper and 3-6 months extra time. I am more focused on getting real experience and brush my skills.
 # -----------------------------------------------------------------------------
 # Experience
 # -----------------------------------------------------------------------------
@@ -106,7 +108,18 @@ experience:
       - terraform
       - cloudstack
       - ansible
-      
+
+  - title: Software Engineer, part time ( nebenjob )
+    org: Capegemin GmbH
+    start: Februar 2022
+    end: June 2022
+    location: Munich, German
+    details:  
+      - consulting on cloud architecture, system architecture and SecOps topics
+      - designing SecOps strategies for different teams
+      - designing and orchestrating kubernetes and openshift cluster deployments on prem
+      - red team testing    
+
   - title: DevOps Engineer
     org: SNK GmbH
     start: December 2020

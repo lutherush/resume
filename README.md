@@ -71,6 +71,15 @@ August 2021 - Present - Munich, Germany
 
     _Key technology and skills: AWS (CloudFormation, Lambda, CloudFront, S3, IAM, RDS, API Gateway, more), GitLab, Python, Jira, kubernetes, grafana, prometheus, zabbix, datadog, keycloak, postgresql, mongodb, influxdb, skaffoldü+kustomize, terraform, cloudstack, ansible_
 
+### Software Engineer, part time ( nebenjob ) with Capegemin GmbH
+
+Februar 2022 - June 2022 - Munich, German
+
+* consulting on cloud architecture, system architecture and SecOps topics
+* designing SecOps strategies for different teams
+* designing and orchestrating kubernetes and openshift cluster deployments on prem
+* red team testing
+
 ### DevOps Engineer with SNK GmbH
 
 December 2020 - August 2021 - Munich, German
